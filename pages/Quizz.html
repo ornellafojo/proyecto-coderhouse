@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Quizz</title>
+</head>
+<body>
+    
+    <nav>
+        <a href="../index.html"><img src="../img/logo.png" alt="logo" class="nav__logo"></a>
+        <ul>
+            <li><a href="../index.html">INICIO</a></li>
+            <li><a href="Conocenos.html">CONOCENOS</a></li>
+            <li><a href="Adoptables.html">ADOPTABLES</a></li>
+            <li><a href="Quizz.html" class="active">QUIZZ</a></li>
+            <li><a href="Contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+    
+    <main class="main">
+        <h1 class="h1_excepcion">QUIZZ</h1>
+        <h5>Responde a este breve cuestionario para encontrar a tu mascota ideal.</h5>
+
+        <section class="cuestionario">
+            <p>
+                <form action="" method="post">
+                    <p class="preguntas">1. ¿Qué prefieres?</p>
+                    <input type="radio" name="animal" value="Perros">
+                    <label for="Perros">Perros</label><br>
+                    <input type="radio" name="animal" value="Gatos">
+                    <label for="Gatos">Gatos</label><br>
+                    <input type="radio" name="animal" value="Ambos">
+                    <label for="Ambos">Ambos</label><br>
+
+                    <p class="preguntas">2. ¿Qué buscas en una mascota?</p>
+                    <input type="radio" name="busca" value="tranquilo">
+                    <label for="tranquilo">Que sea tranquila</label><br>
+                    <input type="radio" name="busca" value="energetico">
+                    <label for="energetico">Que tenga mucha energía</label><br>
+                    <input type="radio" name="busca" value="travieso">
+                    <label for="travieso">Que sea algo traviesa y graciosa</label> <br>
+
+                    <p class="preguntas">3. ¿Eres más de animales...?</p>
+                    <input type="radio" name="tamaño" value="chico">
+                    <label for="chico">Pequeños</label><br>
+                    <input type="radio" name="tamaño" value="mediano">
+                    <label for="mediano">Mediano</label><br>
+                    <input type="radio" name="tamaño" value="grande">
+                    <label for="grande">Grande</label><br>
+
+                    <p class="preguntas">4. ¿Prefieres que tu mascota...?</p>
+                    <input type="radio" name="dependencia" value="independiente">
+                    <label for="independiente">Sea más independiente</label><br>
+                    <input type="radio" name="dependencia" value="dependiente">
+                    <label for="dependiente">Requiera mayor atención</label><br>
+
+                    <p class="preguntas">5. ¿Te gustaría convivir con...?</p>
+                    <input type="radio" name="edad" value="cachorro">
+                    <label for="cachorro">Un cachorro</label><br>
+                    <input type="radio" name="edad" value="adulto">
+                    <label for="adulto">Un animal adulto</label><br>
+                    <input type="radio" name="edad" value="anciano">
+                    <label for="anciano">Un animal anciano</label>
+                    
+                    <div>
+                    <input type="submit" value="Enviar" class="boton">
+                    </div>
+                    
+                </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="footer_izq">
+            <img src="../img/logo_negro.png" alt="logo" class="logo_footer">
+            <h5>Calle ejemplo 123<br>
+                Montevideo, Uruguay
+            </h5>
+            <h5>Teléfono: +598 91 234 567
+            </h5>
+            <h5>Email: ejemplo@ejemplo.com</h5>
+        </section>
+
+        <section class="footer_izq">
+            <h4>Redes sociales</h4>
+            <h5>Instagram: @ejemplo</h5>
+            <h5>Twitter: @ejemplo</h5>
+            <h5>Facebook: Ejemplo</h5>
+        </section>
+
+        <section class="footer_der">
+            <h4>Recibe novedades</h4>
+            <h5>Suscríbete a nuestra cadena de correos</h5>
+            <form action="" method="post">
+                <input type="text" id="mail" name="mail" placeholder="Email..." class="footer_text">
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </footer>
+
+</body>
+</html>
